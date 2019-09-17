@@ -7,6 +7,7 @@ class neurona():
         self.pesos=np.random.rand(tam)#pesos para cada entrada de la neurona
         self.salida=0.0#Valor de salida de la neurona
         self.error=0.0#Error de la neurona
+	#comentario
 
     def calcular_salida(self):#Metodo de salida
         e=2.718281828459
